@@ -1,0 +1,176 @@
+
+**** 02/27/19 14:37:25 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RMSmeter"  [ c:\users\alex\git\ee3102\sim\rmsmeter-pspicefiles\schematic1\rmsmeter.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "RMSmeter.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../en.opamps_comparators_st/opamps_comparators_st.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Alex\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 10 10e6
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source RMSMETER
+C_C1         N00154 N00158  1e-12  TC=0,0 
+R_R1         N00143 N00154  16k TC=0,0 
+R_R2         N00154 N00158  16Meg TC=0,0 
+V_V1         N00143 0 DC 0Vdc AC .001Vac 
+E_U1         N00158 0 VALUE {LIMIT(V(0,N00154)*1E6,-15V,+15V)}
+R_R3         N00675 N00705  16k TC=0,0 
+C_C2         N00705 N00713  1e-12  TC=0,0 
+R_R4         N00705 N00713  16Meg TC=0,0 
+V_V2         N00675 0 DC 0Vdc AC .001Vac 
+V_V3         0 N009461 7Vdc
+X_U2         N00705 0 N00713 N016253 N009461 TSV99X 
+V_V4         N016253 0 7Vdc
+
+**** RESUMING RMSmeter.cir ****
+.END
+
+**** 02/27/19 14:37:25 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RMSmeter"  [ c:\users\alex\git\ee3102\sim\rmsmeter-pspicefiles\schematic1\rmsmeter.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.DIODE_VLIM X_U2.DIODE_ILIM X_U2.DX         
+          IS  800.000000E-18  800.000000E-18   10.000000E-15 
+
+
+**** 02/27/19 14:37:25 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RMSmeter"  [ c:\users\alex\git\ee3102\sim\rmsmeter-pspicefiles\schematic1\rmsmeter.sim ] 
+
+
+ ****     MOSFET MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U2.MOS_N      
+               NMOS            
+       LEVEL    1            
+           L  100.000000E-06 
+           W  100.000000E-06 
+         VTO     .65         
+          KP  500.000000E-06 
+       GAMMA    0            
+         PHI     .6          
+      LAMBDA    0            
+          IS   10.000000E-15 
+          JS    0            
+          PB     .8          
+        PBSW     .8          
+          CJ    0            
+        CJSW    0            
+        CGSO    0            
+        CGDO    0            
+        CGBO    0            
+         TOX    0            
+          XJ    0            
+       UCRIT   10.000000E+03 
+      DIOMOD    1            
+         VFB    0            
+        LETA    0            
+        WETA    0            
+          U0    0            
+        TEMP    0            
+         VDD    5            
+       XPART    0            
+
+
+INTERNAL ERROR -- Overflow, Convert
+
+ABORTING SIMULATION
+**** 02/27/19 14:37:25 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-RMSmeter"  [ c:\users\alex\git\ee3102\sim\rmsmeter-pspicefiles\schematic1\rmsmeter.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+Node counts:
+  Top level (NUNODS)                =           9
+  External (NCNODS)                 =          56
+  Total (NUMNOD)                    =          56
+
+Total device count (NUMEL)          =          91
+  Capacitors (C)                    =          10
+  Diodes (D)                        =          12
+  VCVS (E)                          =          24
+  VCCS (G)                          =           7
+  CCVS (H)                          =           2
+  Current Sources (I)               =           1
+  MosFETs (M)                       =           2
+  Resistors (R)                     =          17
+  Voltage Sources (V)               =          16
+
+Number of subcircuits (X)           =           1
+
+Matrix statistics:
+  Matrix size (NSTOP)               =          98
+  Initial no. elements (NTTAR)      =         277
+  No. elements w/ fillin (NTTBR)    =         336
+  No. fillins (IFILL)               =          59
+  No. overflows (NTTOV)             =         174
+  No. LU operations (IOPS)          =        1861
+  Percent sparsity (PERSPA)         =      96.501
+
+Analysis statistics:
+  No. total time points (NUMTTP)    =           0
+  No. rejected time points (NUMRTP) =           0
+  No. iterations (NUMNIT)           =           0
+
+Load Threads                        =           8
+
+Runtime statistics:                       Seconds      Iterations
+  Matrix load                       =        0.00
+  Matrix solution                   =        0.00               2
+  Readin                            =         .06
+  General setup                     =        0.00
+  CMI setup                     =        0.00
+  Setup                             =        0.00
+  DC sweep                          =        0.00               0
+  Bias point                        =        0.00               0
+  AC and noise                      =        0.00               0
+  Total transient analysis          =        0.00
+  Output                            =        0.00
+  Overhead                          =        0.00
+  Total job time (using Solver 1)   =         .06
+

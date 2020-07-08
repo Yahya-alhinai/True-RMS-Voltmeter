@@ -1,0 +1,23 @@
+STATUS: PSpice Model Import Wizard for "Capture" (16.6.0.d001)
+STATUS:  
+   INFO: LIB driven flow
+   INFO: Input File: C:\Users\Alex\git\EE3102\SIM\en.opamps_comparators_ST\Opamps_Comparators_ST.lib
+   INFO: Output File: C:\Users\Alex\git\EE3102\SIM\en.opamps_comparators_ST\Opamps_Comparators_ST.olb
+STATUS:  
+STATUS: Identifying matching symbols automatically...started at Wednesday, February 20, 2019 15:12:12
+STATUS:  
+   INFO: Symbol "MOS_N" created for model "MOS_N".
+   INFO: Symbol "DIODE_RF" created for model "DIODE_RF".
+   INFO: Symbol "DIODE_NOVD" created for model "DIODE_NOVD".
+   INFO: Symbol "DIODE_VLIM" created for model "DIODE_VLIM".
+   INFO: Symbol "DIODE_ILIM" created for model "DIODE_ILIM".
+   INFO: Symbol "VCCAP_PSPICE" already exists for model "VCCAP_PSPICE".
+   INFO: Symbol "VCCAP_PSPICE" already exists for model "VCCAP_PSPICE".
+   INFO: Symbol "VCCAP_PSPICE" already exists for model "VCCAP_PSPICE".
+   INFO: Symbol "VCCAP_PSPICE" already exists for model "VCCAP_PSPICE".
+   INFO: Symbol "VCCAP_PSPICE" already exists for model "VCCAP_PSPICE".
+   INFO: Symbol "TS3011" already exists for model "TS3011".
+STATUS:  
+STATUS: Completed identifying matching symbols automatically...at Wednesday, February 20, 2019 15:12:12
+STATUS:  
+STATUS: 0 Error messages, 0 Warning messages

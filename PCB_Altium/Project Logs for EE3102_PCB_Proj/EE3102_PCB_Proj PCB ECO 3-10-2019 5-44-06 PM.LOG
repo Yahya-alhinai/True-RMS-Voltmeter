@@ -1,0 +1,8 @@
+Added Component: Designator=OP_AMP(Op_Amp)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC1_2 Pin=OP_AMP-1
+Added Pin To Net: NetName=NetC1_2 Pin=OP_AMP-1
+Added Pin To Net: NetName=GND Pin=OP_AMP-3
+Added Pin To Net: NetName=NetOP_AMP_4 Pin=OP_AMP-4
+Added Pin To Net: NetName=NetJ1_1 Pin=OP_AMP-5
+Added Member To Class: ClassName=EE3102_PCB_Proj Member=Component OP_AMP Op_Amp_EE3102

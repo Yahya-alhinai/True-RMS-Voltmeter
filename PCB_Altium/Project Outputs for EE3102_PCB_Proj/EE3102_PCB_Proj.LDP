@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: \\Client\C$\Users\Emma\Documents\SPRING_2019\EE3102_Lab\EE3102\PCB_Altium\EE3102_PCB_Proj.PcbDoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=ee3102_pcb_proj-roundholes.txt|DrillLayers=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=ee3102_pcb_proj-slotholes.txt|DrillLayers=gtl,gbl

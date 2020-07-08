@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: \\Client\C$\Users\Emma\Documents\SPRING_2019\EE3102_Lab\EE3102\PCB_Altium\EE3102_PCB_Proj.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

@@ -1,0 +1,26 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: EE3102_PCB_Proj.PcbDoc   3/13/2019  3:37:22 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : EE3102_PCB_Proj-RoundHoles.TXT
+ASCII SlotHoles File : EE3102_PCB_Proj-SlotHoles.TXT
+EIA File   : EE3102_PCB_Proj.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      20mil (0.508mm)                                           Round             5         PTH        0.40inch (10.16mm)
+T2      26mil (0.65mm)                                            Slot              2         PTH        0.37inch (9.30mm)
+T3      28mil (0.701mm)                                           Round             10        PTH        3.10inch (78.85mm)
+T4      28mil (0.711mm)                                           Round             5         PTH        4.03inch (102.43mm)
+T5      30mil (0.762mm)                                           Round             5         PTH        0.40inch (10.16mm)
+T6      33mil (0.826mm)                                           Slot              2         PTH        0.71inch (18.08mm)
+T7      34mil (0.851mm)                                           Round             20        PTH        6.68inch (169.69mm)
+T8      35mil (0.889mm)                                           Round             8         PTH        1.00inch (25.40mm)
+T9      35mil (0.899mm)                                           Round             68        PTH        16.26inch (412.96mm)
+T10     39mil (1.001mm)                                           Round             3         PTH        0.20inch (5.08mm)
+T11     79mil (1.999mm)                                           Round             2         PTH        0.40inch (10.20mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              130
+
+Total Processing Time (hh:mm:ss) : 00:00:00

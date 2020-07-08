@@ -1,0 +1,7 @@
+STATUS: PSpice Schematics to Capture translator (16.6.0.d001)
+STATUS:  
+STATUS: Translator started at Wednesday, February 20, 2019 15:12:12
+INFO(ORSCH-1029): Using existing library 'C:\OrCAD\OrCAD_16.6_Lite\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'C:\Users\Alex\git\EE3102\SIM\en.opamps_comparators_ST\Opamps_Comparators_ST.olb'.
+STATUS: Translator stopped at Wednesday, February 20, 2019 15:12:30
+STATUS: 0 Error messages, 0 Warning messages

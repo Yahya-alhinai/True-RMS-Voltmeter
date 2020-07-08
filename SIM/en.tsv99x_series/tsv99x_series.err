@@ -1,0 +1,8 @@
+STATUS: PSpice Schematics to Capture translator (16.6.0.d001)
+STATUS:  
+STATUS: Translator started at Sunday, February 24, 2019 17:30:36
+STATUS: C:\OrCAD\OrCAD_16.6_Lite\tools\capture\sch2cap -f "C:\Users\Alex\git\EE3102\SIM\en.tsv99x_series\tsv99x_series.txt" -o "C:\Users\Alex\git\EE3102\SIM\en.tsv99x_series\tsv99x_series.OPJ" -i C:\Users\Alex\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini -d 001D03D6 -h  -p  -c  -z 
+INFO(ORSCH-1029): Using existing library 'C:\OrCAD\OrCAD_16.6_Lite\tools\Capture\Library\PSpice\modeled.etc'.
+INFO(ORSCH-1031): Created new library 'C:\Users\Alex\git\EE3102\SIM\en.tsv99x_series\tsv99x_series.olb'.
+STATUS: Translator stopped at Sunday, February 24, 2019 17:30:37
+STATUS: 0 Error messages, 0 Warning messages

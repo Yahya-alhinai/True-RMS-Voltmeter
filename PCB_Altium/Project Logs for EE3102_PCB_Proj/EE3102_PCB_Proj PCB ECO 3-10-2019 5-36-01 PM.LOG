@@ -1,0 +1,7 @@
+Added Component: Designator=LCD(LCD)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetC3_1 Pin=LCD-2
+Added Pin To Net: NetName=GND Pin=LCD-3
+Added Pin To Net: NetName=NetLCD_4 Pin=LCD-4
+Added Pin To Net: NetName=NetLCD_5 Pin=LCD-5
+Added Member To Class: ClassName=EE3102_PCB_Proj Member=Component LCD

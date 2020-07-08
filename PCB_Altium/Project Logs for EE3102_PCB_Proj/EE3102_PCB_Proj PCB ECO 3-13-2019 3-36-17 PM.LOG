@@ -1,0 +1,11 @@
+Added Component: Designator=ADC(ADC)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetADC_1 Pin=ADC-1
+Added Pin To Net: NetName=NetADC_2 Pin=ADC-2
+Added Pin To Net: NetName=NetADC_3 Pin=ADC-3
+Added Pin To Net: NetName=NetADC_4 Pin=ADC-4
+Added Pin To Net: NetName=NetADC_5 Pin=ADC-5
+Added Pin To Net: NetName=NetADC_6 Pin=ADC-6
+Added Pin To Net: NetName=GND Pin=ADC-7
+Added Pin To Net: NetName=NetADC_2 Pin=ADC-8
+Added Member To Class: ClassName=EE3102_PCB_Proj Member=Component ADC

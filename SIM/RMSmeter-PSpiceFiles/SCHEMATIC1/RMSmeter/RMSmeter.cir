@@ -1,0 +1,20 @@
+** Profile: "SCHEMATIC1-RMSmeter"  [ c:\users\alex\git\ee3102\sim\rmsmeter-pspicefiles\schematic1\rmsmeter.sim ] 
+
+** Creating circuit file "RMSmeter.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+.LIB "../../../en.opamps_comparators_st/opamps_comparators_st.lib" 
+* From [PSPICE NETLIST] section of C:\Users\Alex\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.AC DEC 10 10 10e6
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

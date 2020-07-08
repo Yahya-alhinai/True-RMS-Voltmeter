@@ -1,0 +1,10 @@
+* source BIASED_OPAMP
+R_R3         N00167 N00160  16Meg TC=0,0 
+R_R4         N00160 N00667  16k TC=0,0 
+E_U1         N00167 0 VALUE {LIMIT(V(0,N00160)*1E6,-15V,+15V)}
+V_V2         N00667 0  AC 1mV
++SIN 0 .001 5000 0 0 0
+C_C1         N00160 N00167  1e-12  TC=0,0 
+V_V1         N02912 0 2.5Vdc
+R_R5         N02912 0  16k TC=0,0 
+R_R6         N02912 N00167  100 TC=0,0 

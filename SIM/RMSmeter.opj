@@ -1,0 +1,83 @@
+(ExpressProject "RMSmeter"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\rmsmeter.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\rmsmeter-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\rmsmeter-pspicefiles\schematic1\rmsmeter.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\rmsmeter-pspicefiles\schematic1\rmsmeter.sim"
+        (DisplayName "SCHEMATIC1-RMSmeter")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\en.opamps_comparators_st\opamps_comparators_st.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName ".\en.opamps_comparators_st\opamps_comparators_st.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (MPSSessionName "Alex")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" "C:\USERS\ALEX\git\EE3102\SIM\rmsmeter.dsn")
+      (Path "Design Resources" "C:\USERS\ALEX\git\EE3102\SIM\rmsmeter.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 150"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 78 1714 78 538")
+        (Scroll "0 356")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "C:\USERS\ALEX\GIT\EE3102\SIM\RMSMETER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Ideal"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 104 1447 104 564")
+        (Scroll "160 216")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path "C:\USERS\ALEX\GIT\EE3102\SIM\RMSMETER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "TSV99X")))
+  (PartMRUSelector
+    (TSV99X
+      (FullPartName "TSV99X.Normal")
+      (LibraryName
+         "C:\USERS\ALEX\GIT\EE3102\SIM\EN.TSV99X_SERIES\TSV99X_SERIES.OLB")
+      (DeviceIndex "0"))
+    (TSV91X
+      (FullPartName "TSV91X.Normal")
+      (LibraryName
+         "C:\USERS\ALEX\GIT\EE3102\SIM\EN.OPAMPS_COMPARATORS_ST\OPAMPS_COMPARATORS_ST.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\ORCAD\ORCAD_16.6_LITE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\Alex\git\EE3102\SIM\en.tsv99x_series"))

@@ -1,0 +1,46 @@
+
+**** 03/13/19 00:53:19 ****** PSpice Lite (October 2012) ****** ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-a"  [ C:\Users\Alex\git\EE3102\SIM\biased_opamp-pspicefiles\schematic1\a.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "a.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Alex\AppData\Roaming\SPB_16.6\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10ms 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source BIASED_OPAMP
+R_R3         N00167 N00160  16Meg TC=0,0 
+R_R4         N00160 N00667  16k TC=0,0 
+E_U1         N00167 0 VALUE {LIMIT(V(0,N00160)*1E6,-15V,+15V)}
+V_V2         N00667 0  AC 1mV
++SIN 0 .001 5000 0 0 0
+C_C1         N00160 N00167  1e-12  TC=0,0 
+V_V1         N00167 0 2.5Vdc
+
+**** RESUMING a.cir ****
+.END
+
+ERROR(ORPSIM-15143): Voltage source and/or inductor loop involving V_V1. You may break the loop by adding a series resistance
+
